@@ -1,0 +1,186 @@
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+  font-size: 14pt;
+}
+#wrapper {
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header{
+
+  height: 150px;
+  background-color: #eeeeee;
+ 
+}
+
+header h1{
+  font-size: 38pt;
+  color: #656565;
+  text-align: center;
+  line-height: 150px;
+  font-family: Arial;
+}
+
+
+
+nav {
+  background-color: #ea6a5b;
+  height: 40px;
+
+}
+
+nav > ul{
+  margin: 0;
+}
+
+.menu {
+  text-align: left ;
+  padding: 5px 0 5px 0;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 12pt;
+}
+
+.menu li a {
+
+  font-family: arial;
+  color: white;
+}
+
+.menu a:active{
+
+  color:black;
+}
+
+section h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+
+}
+
+img {
+
+  margin-top: 40px;
+
+}
+
+.details {
+  max-width: 400px;
+
+}
+
+form p {
+  font-size: 16pt;
+  font-family: Arial;
+}
+
+
+.details label {
+
+    display: block;
+     margin: 0px 0px 5px 0px;
+
+}
+
+.details label > span{
+	width: 100px;
+  float: left;
+  font-family: 'Arial';
+	padding-top: 8px;
+  padding-right: 5px;
+  font-size: 12pt;
+  
+  
+}
+.details input.input-field, 
+ .details .select-field{
+	box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+
+.details input.input-field, .details .select-field{
+  width: 48%;	
+  margin-left: 50px;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  margin-top: 25px;
+  background-color: #ea6a5b;
+  border: 1px solid salmon;
+  color : white;
+  font-family: 'Arial';
+  font-size: 12pt;
+
+}
+
+form p {
+  font-size: 16pt;
+  font-family: Arial;
+  margin-top: 40px;
+
+}
+
+
+
+th {
+  text-align: center  ;
+  background-color: #dddddd;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14pt;
+  font-weight: normal;
+
+}
+
+
+
+table , td {
+  border : 1px solid  #dddddd;
+  border-collapse: collapse;
+text-align: center;
+font-size: 18px;
+font-family: Arial;
+}
+
+.left {
+  background-color: #ea6a5b;
+  padding: 2px;
+  font-size: 16px;
+  font-family: Arial;
+  color: White;
+  padding: 10px;
+  width: 30%;
+}
+
+.summary {
+
+  background-color: #eeeeee;
+  border: none;
+ 
+}
+
+.summary td {
+
+  border: none;
+  padding:3px;
+  font-size: 14pt;
+  font-weight: normal; }
